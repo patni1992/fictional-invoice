@@ -4,9 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "koa": "^2.15.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "koa-views": "^8.1.0",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-views": "^7.0.0",
+    "@types/node": "^20.11.28",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
 }
