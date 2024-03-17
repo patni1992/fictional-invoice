@@ -10,16 +10,16 @@
     <div class="max-w-4xl mx-auto p-5">
         <form action="/invoice" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="from-date">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="fromDate">
                     From Date
                 </label>
-                <input required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="date" id="from-date" name="from-date">
+                <input required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="date" id="fromDate" name="fromDate">
             </div>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="to-date">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="toDate">
                     To Date
                 </label>
-                <input required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="date" id="to-date" name="to-date">
+                <input required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="date" id="toDate" name="toDate">
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="carrier">
@@ -28,9 +28,9 @@
                 <div class="relative">
                     <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="carrier" name="carrier">
                         <% carriers.forEach(function(carrier) { %>
-                            <option value="<%= carrier %>"><%= carrier %></option>
+                          <option value="<%= carrier._id %>"><%= carrier.name %></option>
                         <% }); %>
-                    </select>
+                      </select>                      
                 </div>
             </div>
             <div class="flex items-center justify-between">
