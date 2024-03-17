@@ -1,0 +1,203 @@
+[{
+  "_id": {
+    "$oid": "65f45a72d9f14d7cb9ce8c2c"
+  },
+  "carrier": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c18"
+  },
+  "trackingNumber": "DHL12345678",
+  "sender": {
+    "name": "John Doe",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "country": "USA"
+    }
+  },
+  "recipient": {
+    "name": "Jane Smith",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Othertown",
+      "state": "NY",
+      "zipCode": "54321",
+      "country": "USA"
+    }
+  },
+  "weight": {
+    "value": 2,
+    "units": "kg"
+  },
+  "dimensions": {
+    "length": 30,
+    "width": 20,
+    "height": 10,
+    "units": "cm"
+  },
+  "status": {
+    "current": "Shipped",
+    "history": [
+      {
+        "date": {
+          "$date": "2024-03-15T09:00:00.000Z"
+        },
+        "location": "Distribution Center",
+        "city": "Anytown",
+        "state": "CA",
+        "status": "Shipped"
+      }
+    ]
+  },
+  "expectedDelivery": {
+    "$date": "2024-03-20T00:00:00.000Z"
+  },
+  "actualDeliveryDate": {
+    "$date": "2024-03-19T00:00:00.000Z"
+  },
+  "distance": 250,
+  "insurance": true,
+  "signatureConfirmation": false,
+  "serviceType": "Express",
+  "createdAt": {
+    "$date": "2024-03-16T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f45a72d9f14d7cb9ce8c2d"
+  },
+  "carrier": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c19"
+  },
+  "trackingNumber": "UPS12345678",
+  "sender": {
+    "name": "Alice Johnson",
+    "address": {
+      "street": "789 Pine St",
+      "city": "Somewhere",
+      "state": "TX",
+      "zipCode": "67890",
+      "country": "USA"
+    }
+  },
+  "recipient": {
+    "name": "Bob Brown",
+    "address": {
+      "street": "101 Maple St",
+      "city": "Nowhere",
+      "state": "FL",
+      "zipCode": "98765",
+      "country": "USA"
+    }
+  },
+  "weight": {
+    "value": 5,
+    "units": "kg"
+  },
+  "dimensions": {
+    "length": 40,
+    "width": 30,
+    "height": 20,
+    "units": "cm"
+  },
+  "status": {
+    "current": "In Transit",
+    "history": [
+      {
+        "date": "2024-03-16T10:00:00Z",
+        "location": "Distribution Center",
+        "city": "Somewhere",
+        "state": "TX",
+        "status": "In Transit"
+      }
+    ]
+  },
+  "expectedDelivery": {
+    "$date": "2024-03-22T00:00:00.000Z"
+  },
+  "actualDeliveryDate": {
+    "$date": "2024-03-21T00:00:00.000Z"
+  },
+  "distance": 450,
+  "insurance": false,
+  "signatureConfirmation": true,
+  "serviceType": "Ground",
+  "createdAt": {
+    "$date": "2024-03-16T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-17T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f462e2d9f14d7cb9ce8c2f"
+  },
+  "carrier": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c18"
+  },
+  "trackingNumber": "23423423",
+  "sender": {
+    "name": "John Doe",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "country": "USA"
+    }
+  },
+  "recipient": {
+    "name": "Jane Smith",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Othertown",
+      "state": "NY",
+      "zipCode": "54321",
+      "country": "USA"
+    }
+  },
+  "weight": {
+    "value": 2,
+    "units": "kg"
+  },
+  "dimensions": {
+    "length": 38,
+    "width": 100,
+    "height": 40,
+    "units": "cm"
+  },
+  "status": {
+    "current": "Shipped",
+    "history": [
+      {
+        "date": "2024-03-15T09:00:00Z",
+        "location": "Distribution Center",
+        "city": "Anytown",
+        "state": "CA",
+        "status": "Shipped"
+      }
+    ]
+  },
+  "expectedDelivery": {
+    "$date": "2024-03-20T00:00:00.000Z"
+  },
+  "actualDeliveryDate": {
+    "$date": "2024-03-19T00:00:00.000Z"
+  },
+  "distance": 550,
+  "insurance": false,
+  "signatureConfirmation": false,
+  "serviceType": "Ground",
+  "createdAt": {
+    "$date": "2024-03-15T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T09:00:00.000Z"
+  }
+}]

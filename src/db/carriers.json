@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c18"
+  },
+  "name": "DHL"
+},
+{
+  "_id": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c19"
+  },
+  "name": "UPS"
+},
+{
+  "_id": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c1a"
+  },
+  "name": "FedEx"
+},
+{
+  "_id": {
+    "$oid": "65f44a8fd9f14d7cb9ce8c1b"
+  },
+  "name": "XPO"
+}]
