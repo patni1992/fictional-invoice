@@ -5,6 +5,9 @@
 - Filter and generate invoices by carrier and date range.
 - Download invoices in PDF format.
 
+![Gui](https://github.com/patni1992/fictional-invoice/blob/main/images/gui.png?raw=true)
+![Invoice](https://github.com/patni1992/fictional-invoice/blob/main/images/invoice.png?raw=true)
+
 ## Getting Started
 
 ### Prerequisites
